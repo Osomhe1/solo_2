@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className='max-w-8xl mx-auto px-5 py-24 text-black'>
           <div className='order-first flex flex-wrap text-left'>
             <div className='w-full md:w-2/4 lg:w-1/5'>
-              <a  href='#/'>
+              <a href='#/'>
                 <div className='relative border transition hover:border-gray-500'>
                   <div className='p-6'>
                     <div className=''>
@@ -23,22 +24,22 @@ export default function Footer() {
               <h2 className='mb-3 text-lg tracking-widest'>Service</h2>
               <nav className='list-none space-y-2 py-3'>
                 <li>
-                  <a  href='#/'>How It Works </a>
+                  <Link href='#/'>How It Works </Link>
                 </li>
                 <li>
-                  <a  href='#/'>Pricing</a>
+                  <Link href='#/'>Pricing</Link>
                 </li>
                 <li>
-                  <a  href='#/'>NFC Portals</a>
+                  <Link href='#/'>NFC Portals</Link>
                 </li>
                 <li>
-                  <a  href='#/'>vs. Linktree</a>
+                  <Link href='#/'>vs. Linktree</Link>
                 </li>
                 <li>
-                  <a href='#/'>Sign In</a>
+                  <Link href='#/'>Sign In</Link>
                 </li>
                 <li>
-                  <a href='#/'>Malesuada.</a>
+                  <Link href='#/'>Malesuada.</Link>
                 </li>
               </nav>
             </div>
@@ -46,16 +47,16 @@ export default function Footer() {
               <h2 className='mb-3 text-lg tracking-widest'>Company</h2>
               <nav className='mb-10 list-none space-y-2 py-3'>
                 <li>
-                  <a href='#/'>Affiliate Program </a>
+                  <Link href='#/'>Affiliate Program </Link>
                 </li>
                 <li>
-                  <a href='#/'>Branding</a>
+                  <Link href='#/'>Branding</Link>
                 </li>
                 <li>
-                  <a href='#/'>Terms</a>
+                  <Link href='#/'>Terms</Link>
                 </li>
                 <li>
-                  <a href='#/'>Privacy</a>
+                  <Link href='#/'>Privacy</Link>
                 </li>
               </nav>
             </div>
@@ -63,14 +64,14 @@ export default function Footer() {
               <h2 className='mb-3 text-lg tracking-widest'>Support</h2>
               <nav className='mb-10 list-none space-y-2 py-3'>
                 <li>
-                  <a href='#/'>Help Docs </a>
+                  <Link href='#/'>Help Docs </Link>
                 </li>
                 <li>
-                  <a href='#/'>Expert Tips</a>
+                  <Link href='#/'>Expert Tips</Link>
                 </li>
 
                 <li>
-                  <a href='#/'>Contact</a>
+                  <Link href='#/'>Contact</Link>
                 </li>
               </nav>
             </div>
@@ -78,10 +79,10 @@ export default function Footer() {
               <h2 className='mb-3 text-lg tracking-widest'>Social</h2>
               <nav className='mb-10 list-none space-y-2 py-3'>
                 <li>
-                  <a href='#/'>Instagram </a>
+                  <Link href='#/'>Instagram </Link>
                 </li>
                 <li>
-                  <a href='#/'>Blog</a>
+                  <Link href='#/'>Blog</Link>
                 </li>
               </nav>
             </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Login() {
@@ -48,13 +49,14 @@ export default function Login() {
             
             <div>
               <label className='inline-flex items-center cursor-pointer'>
-               
+               <Link href='/forget_password'>
                 <span
                   style={{ transition: 'all .15s ease' }}
                   className='ml-2 text-sm font-semibold hover:text-gray-200 text-gray-700'
                 >
                   Forget Password
                 </span>
+               </Link>
               </label>
             </div>
           </div>
@@ -76,7 +78,9 @@ export default function Login() {
               type='button'
               style={{ transition: 'all .15s ease' }}
             >
+              <Link href='/auth/SignUp'>
               or Create an Account
+              </Link>
             </button>
           </div>
         </form>

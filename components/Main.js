@@ -12,10 +12,10 @@ export default function Main() {
             nine4 is a free to use website template for websites made with
             Next.js and styled with Tailwind CSS
           </p>
-          
+
           {/* <section> */}
           <form className='Avenir  xl:w-3/4'>
-            <div className='relative w-[500px] mb-3 '>
+            <div className='relative w-full mb-3 '>
               <input
                 type='email'
                 className='border-0 px-3 py-5 placeholder-gray-400 
@@ -54,7 +54,6 @@ export default function Main() {
                 />
               </div>
             </div>
-           
 
             <div className='text-center mt-6'>
               <button
@@ -83,8 +82,6 @@ export default function Main() {
           />
         </div>
       </div>
-      
-      
     </section>
   )
 }

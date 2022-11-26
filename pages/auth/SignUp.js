@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function SignUp() {
@@ -70,7 +71,9 @@ export default function SignUp() {
               type='button'
               style={{ transition: 'all .15s ease' }}
             >
+              <Link href='/auth/Login'>
               or Sign In
+              </Link>
             </button>
           </div>
         </form>
