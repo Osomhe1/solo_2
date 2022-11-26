@@ -9,7 +9,7 @@ export default function ForgetPassword() {
             Forgot Password
           </h2>
           <p className='text-center  text  py-5 '>
-            Enter your email below and we'll send you a password reset link.
+            Enter your email below and we ll send you a password reset link.
           </p>
 
           <div className='relative w-full mb-3'>

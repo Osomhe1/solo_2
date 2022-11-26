@@ -61,12 +61,12 @@ export default function Privacy() {
               </ul>
               <p className='py-4'>
                 Cookies are sent to your browser from the websites you visit and
-                are stored on your device's internal memory. You can instruct
+                are stored on your devices internal memory. You can instruct
                 your browser to deny cookies or to prompt when a cookie is being
                 sent. However, without accepting cookies you might not be able
                 to use some features of the Platform. Examples of cookies the
                 Platform may utilize include session cookies that remembers a
-                user's logged-in status, or from third-party service providers
+                user logged-in status, or from third-party service providers
                 as outlined below.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function Privacy() {
                 </li>
               </ol>
               <p className='py-2  text-md'>
-                Data that hasn't been explicitly removed or replaced by the user
+                Data that hasnt been explicitly removed or replaced by the user
                 is typically stored for the duration of the account or page.
                 Full pages and accounts that are deleted by the user remain
                 stored in an inactive state for a brief period of time until
@@ -281,19 +281,19 @@ export default function Privacy() {
             {/* Children's Privacy */}
             <div className=''>
               <h2 className='py-4 text-xl md:text-3xl font-semibold'>
-                Children's Privacy
+                Childrens Privacy
               </h2>
               <p className='py-2  text-md'>
                 The Platform does not address anyone under the age of 13. We do
                 not knowingly collect personally identifiable information from
                 children under 13 in order for compliance with the requirements
-                of the Children's Online Privacy Protection Act (COPPA).
+                of the Childrens Online Privacy Protection Act (COPPA).
               </p>
               <p className='py-2  text-md'>
                 The Platform does not address anyone under the age of 13. We do
                 not knowingly collect personally identifiable information from
                 children under 13 in order for compliance with the requirements
-                of the Children's Online Privacy Protection Act (COPPA).
+                of the Childrens Online Privacy Protection Act (COPPA).
               </p>
             </div>
             {/* end */}
