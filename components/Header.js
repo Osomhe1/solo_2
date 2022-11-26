@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
@@ -12,9 +13,16 @@ export default function Header() {
             href='/'
             className='text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline'
           >
-            <h1 className='text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl'>
+            {/* <h1 className='text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl'>
               NINE4
-            </h1>
+            </h1> */}
+            <Image
+              className='Avenir object-fit '
+              alt='iPhone-12'
+              src='/images/solo_logo.jpeg'
+              width={60}
+              height={40}
+            />
           </Link>
           <button
             className='text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none '
@@ -63,7 +71,6 @@ export default function Header() {
                 >
                   Pricing
                 </Link>
-                
               </li>
               <li>
                 <Link
