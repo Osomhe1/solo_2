@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 // import Footer from 'components/Footer.js'
 import pic from '../../public/images/team-2-800x800.jpg'
+import Appreance from '../Appreance'
 // import Image from 'next/image'
 
 
@@ -176,6 +177,10 @@ export default function Profile() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="">
+            <Appreance />
           </div>
         </section>
       </main>
