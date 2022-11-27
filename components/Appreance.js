@@ -93,7 +93,7 @@ export default function Appreance() {
       <div className=''>
         <section className='bg-white dark:bg-gray-800 dark:text-gray-100 mx-4'>
           {/* container flex flex-col justify-center p-4 mx-auto md:p-8 */}
-          <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6  '>
+          <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-4 lg:px-6  '>
             <div className='flex flex-col  sm:p lg:px- xl:px- divide-gray-700'>
               <details>
                 <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between'>

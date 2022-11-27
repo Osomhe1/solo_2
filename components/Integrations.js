@@ -5,7 +5,7 @@ export default function Integrations() {
     <div>
       <div className=''>
         {/* <!-- Start block --> */}
-        <section class='bg-white dark:bg-gray-900'>
+        {/* <section class='bg-white dark:bg-gray-900'>
           <div class='max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 '>
             <h2 class='mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white'>
               Frequently asked questions
@@ -250,7 +250,42 @@ export default function Integrations() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <div className=''>
+          <section className='bg-white dark:bg-gray-800 dark:text-gray-100 mx-4'>
+            {/* container flex flex-col justify-center p-4 mx-auto md:p-8 */}
+            <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-4 lg:px-6  '>
+              <div className='flex flex-col  sm:p lg:px- xl:px- divide-gray-700'>
+                <details>
+                  <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between'>
+                    Integration
+                    <svg
+                      data-accordion-icon=''
+                      class='w-6 h-6  shrink-0'
+                      fill='currentColor'
+                      viewBox='0 0 20 20'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        fill-rule='evenodd'
+                        d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
+                        clip-rule='evenodd'
+                      ></path>
+                    </svg>
+                  </summary>
+                  <div className='px-4 pb-4'>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Unde neque in fugiat magni, quas animi enim veritatis
+                      deleniti ex. Impedit.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </section>
+        </div>
         {/* <!-- End block --> */}
       </div>
     </div>
