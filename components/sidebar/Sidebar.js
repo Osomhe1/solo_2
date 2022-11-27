@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import Link from 'next/link'
 import Image from 'next/image'
 import pic from '../../public/images/team-2-800x800.jpg'
@@ -22,23 +21,15 @@ export default function Sidebar() {
             <i className='fas fa-bars'></i>
           </button>
           {/* Brand */}
-          {/* <Link
-            className='md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0'
-            href='/'
-          >
-            Tailwind Starter Kit
-          </Link> */}
+          
           <div className=''>
             <Image
               alt='...'
-              // src={require('assets/img/team-2-800x800.jpg').default}
-              // src='/public/images/team-2-800x800.jpg'
               src={pic}
               className=' h-auto  rounded-full align-middle  border-none shadow-xl   '
-              // className='shadow-xl rounded-full h-auto align-middle border-none  -m-16 -ml-20 lg:-ml-2'
               style={{ maxWidth: '150px' }}
               height={100}
-              width={120}
+              width={100}
             />
           </div>
           {/* User */}
@@ -91,19 +82,7 @@ export default function Sidebar() {
             </form>
             {/* Navigation */}
             <div className=''>
-              <div className=''>
-                <Image
-                  alt='...'
-                  // src={require('assets/img/team-2-800x800.jpg').default}
-                  // src='/public/images/team-2-800x800.jpg'
-                  src={pic}
-                  className='shadow-xl rounded-full h-auto align-middle border-none  -m-16 -ml-20 lg:-ml-16'
-                  style={{ maxWidth: '150px' }}
-                  height={100}
-                  width={120}
-                />
-              </div>
-
+              
               <ul className='md:flex-col md:min-w-full flex flex-col list-none'>
                 <li className='items-center'>
                   <Link
@@ -128,7 +107,7 @@ export default function Sidebar() {
                 <li className='items-center'>
                   <Link
                     className='text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block'
-                    href='/'
+                    href='/dashboard'
                   >
                     <i className='fas fa-user-circle text-blueGray-400 mr-2 text-sm'></i>{' '}
                     Profile Page
@@ -138,7 +117,7 @@ export default function Sidebar() {
                 <li className='items-center'>
                   <Link
                     className='text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block'
-                    href='/'
+                    href='/auth/Login'
                   >
                     <i className='fas fa-fingerprint text-blueGray-400 mr-2 text-sm'></i>{' '}
                     Login
@@ -148,7 +127,7 @@ export default function Sidebar() {
                 <li className='items-center'>
                   <a
                     className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
-                    href='#pablo'
+                    href='/auth/SignUp'
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className='fas fa-clipboard-list text-blueGray-300 mr-2 text-sm'></i>{' '}
@@ -226,15 +205,7 @@ export default function Sidebar() {
                 </Link>
               </li>
 
-              <li className='inline-flex'>
-                <Link
-                  className='text-blueGray-700 hover:text-blueGray-500  text-sm block mb-4 no-underline font-semibold'
-                  href='/'
-                >
-                  <i className='fab fa-js-square mr-2 text-blueGray-400 text-base'></i>{' '}
-                  Javascript
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>

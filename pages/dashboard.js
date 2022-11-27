@@ -9,7 +9,7 @@ export default function Dashboard() {
         <div className='w-[20%] '>
           <Sidebar />
         </div>
-        <div className='relative w-[70%] m-auto  md:pt-32 pb-32 pt-12'>
+        <div className='relative w-[50%] m-auto  md:pt-32 pb-32 pt-12'>
           <Profile className='absolute   md:pt-32 pb-32 pt-12 ' />
         </div>
       </section>

@@ -1,9 +1,10 @@
 import React from 'react'
 
-import Navbar from './Navbar'
 import Image from 'next/image'
 // import Footer from 'components/Footer.js'
 import pic from '../../public/images/team-2-800x800.jpg'
+// import Image from 'next/image'
+
 
 export default function Profile() {
   return (
@@ -55,7 +56,7 @@ export default function Profile() {
                         // src={require('assets/img/team-2-800x800.jpg').default}
                         // src='/public/images/team-2-800x800.jpg'
                         src={pic}
-                        className='shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16'
+                        className='shadow-xl rounded-full h-auto align-middle border-none absolute -m-12 -ml-20 lg:-ml-1'
                         style={{ maxWidth: '150px' }}
                         height={100}
                         width={120}
@@ -96,49 +97,81 @@ export default function Profile() {
                     </div>
                   </div> */}
                 </div>
-                <div className='text-center mt-12'>
-                  <h3 className='text-4xl font-semibold leading-normal  text-gray-800 mb-2'>
-                    Jenna Stones
-                  </h3>
-                  <div className='text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase'>
-                    <i className='fas fa-map-marker-alt mr-2 text-lg text-gray-500'></i>{' '}
-                    Los Angeles, California
-                  </div>
-                  <div className='mb-2 text-gray-700 mt-10'>
-                    <i className='fas fa-briefcase mr-2 text-lg text-gray-500'></i>
-                    Solution Manager - Creative Tim Officer
-                  </div>
-                  <div className='mb-2 text-gray-700'>
-                    <i className='fas fa-university mr-2 text-lg text-gray-500'></i>
-                    University of Computer Science
-                  </div>
-                </div>
-                <div className='mt-10 py-10 border-t border-gray-300 text-center'>
-                  <div className='flex flex-wrap justify-center'>
-                    <div className='w-full lg:w-9/12 px-4'>
-                      <p className='mb-4 text-lg leading-relaxed text-gray-800'>
-                        An artist of considerable range, Jenna the name taken by
-                        Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                        performs and records all of his own music, giving it a
-                        warm, intimate feel with a solid groove structure. An
-                        artist of considerable range.
-                      </p>
-                      <a
-                        href='#pablo'
-                        className='font-normal text-pink-500'
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Show more
-                      </a>
+
+                <div className='text- mt-12  '>
+                  <form className='Avenir  xl:w-3/4 ml-44     '>
+                    <div className='relative  mb-3 '>
+                      <label className='ml-2 text-sm font-semibold text-gray-700'>
+                        Display Name
+                      </label>
+                      <input
+                        type='name'
+                        className='border-0 px-3 py-5 placeholder-gray-400 
+                   text-gray-700 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring  w-full'
+                        placeholder='John Doe'
+                        style={{ transition: 'all .15s ease' }}
+                      />
                     </div>
-                  </div>
+
+                    <div className='relative w-full mb-3'>
+                      <label className='ml-2 text-sm font-semibold text-gray-700'>
+                        Location
+                      </label>
+                      <input
+                        type='text'
+                        className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
+                         text-sm shadow focus:outline-none focus:ring w-full'
+                        placeholder='Canada'
+                        style={{ transition: 'all .15s ease' }}
+                      />
+                    </div>
+                    <div className='relative w-full mb-3 '>
+                      <div className=''>
+                        <label className='ml-2 text-sm font-semibold text-gray-700'>
+                          Bio
+                        </label>
+                        <textarea
+                          type='text'
+                          className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
+                            text-sm shadow focus:outline-none focus:ring w-full'
+                          placeholder='Lord chief Commandar'
+                          style={{ transition: 'all .15s ease' }}
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label className=' items-center cursor-pointer '>
+                        <div className=''>
+                          <label className='ml-2 text-sm font-semibold text-gray-700'>
+                            Background Image
+                          </label>
+                        </div>
+                        <input
+                          id='customCheckLogin'
+                          type='radio'
+                          className='form-checkbox border-0 rounded text-gray-800 ml-1 w-5 h-5'
+                          style={{ transition: 'all .15s ease' }}
+                        />
+                      </label>
+                    </div>
+
+                    <div className='text-center mt-6 float-right '>
+                      <button
+                        className='bg-gray-200 text-white active:bg-gray-700 text-sm font-bold uppercase
+                       px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]'
+                        type='button'
+                        style={{ transition: 'all .15s ease' }}
+                      >
+                        save
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </main>
-      {/* <Footer /> */}
     </>
   )
 }

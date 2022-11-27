@@ -76,7 +76,7 @@ export default function Main() {
           <Image
             className='w-80 md:ml-1 ml-24'
             alt='iPhone-12'
-            src='/images/iPhone-12-Mockup.png'
+            src='/images/solo_img.jpeg'
             width={300}
             height={200}
           />
