@@ -1,3 +1,4 @@
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 
 export default function Integrations() {
@@ -258,9 +259,9 @@ export default function Integrations() {
             <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-4 lg:px-6  '>
               <div className='flex flex-col  sm:p lg:px- xl:px- divide-gray-700'>
                 <details>
-                  <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between'>
+                  <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between items-center'>
                     Integration
-                    <svg
+                    {/* <svg
                       data-accordion-icon=''
                       class='w-6 h-6  shrink-0'
                       fill='currentColor'
@@ -272,14 +273,54 @@ export default function Integrations() {
                         d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
                         clip-rule='evenodd'
                       ></path>
-                    </svg>
+                    </svg> */}
+                    <ChevronDownIcon className='text- h-14' />
                   </summary>
                   <div className='px-4 pb-4'>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Unde neque in fugiat magni, quas animi enim veritatis
-                      deleniti ex. Impedit.
-                    </p>
+                    <div className=''>
+                      <div className=''>
+                        <label class='inline-flex relative items-center mb-4 cursor-pointer'>
+                          <input
+                            type='checkbox'
+                            value=''
+                            class='sr-only peer'
+                          />
+                          <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                          <span class='ml-3 text-sm font-medium text-gray-900 dark:text-gray-300'>
+                            Link Search
+                          </span>
+                        </label>
+                      </div>
+                      <div className=''>
+                        {' '}
+                        <label class='inline-flex relative items-center mb-4 cursor-pointer'>
+                          <input
+                            type='checkbox'
+                            value=''
+                            class='sr-only peer'
+                            checked
+                          />
+                          <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                          <span class='ml-3 text-sm font-medium text-gray-900 dark:text-gray-300'>
+                            Meta Pixel
+                          </span>
+                        </label>
+                      </div>
+                      <div className=''>
+                        <label class='inline-flex relative items-center mb-3 cursor-pointer'>
+                          <input
+                            type='checkbox'
+                            value=''
+                            class='sr-only peer'
+                            disabled
+                          />
+                          <div class="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                          <span class='ml-3 text-sm font-medium text-gray-400 dark:text-gray-500'>
+                            Contact Picture
+                          </span>
+                        </label>
+                      </div>
+                    </div>
                   </div>
                 </details>
               </div>

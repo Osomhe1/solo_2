@@ -1,3 +1,4 @@
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 
 export default function Link() {
@@ -79,9 +80,9 @@ export default function Link() {
             <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-4 lg:px-6  '>
               <div className='flex flex-col  sm:p lg:px- xl:px- divide-gray-700'>
                 <details>
-                  <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between'>
-                    Links
-                    <svg
+                  <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between items-center '>
+                    Links & Embeds
+                    {/* <svg
                       data-accordion-icon=''
                       class='w-6 h-6  shrink-0'
                       fill='currentColor'
@@ -93,14 +94,20 @@ export default function Link() {
                         d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
                         clip-rule='evenodd'
                       ></path>
-                    </svg>
+                    </svg> */}
+                    <ChevronDownIcon className='text- h-14' />
                   </summary>
                   <div className='px-4 pb-4'>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Unde neque in fugiat magni, quas animi enim veritatis
-                      deleniti ex. Impedit.
-                    </p>
+                    
+<form>
+  
+  <div class="mb-6">
+    <label for="add_new" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Add New</label>
+    <input type="text" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+  </div>
+  
+</form>
+
                   </div>
                 </details>
               </div>
