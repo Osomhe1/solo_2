@@ -120,7 +120,6 @@ export default function Buttons() {
                               className='sr-only peer'
                             />
                             <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            
                           </label>
                         </div>
                       </div>
@@ -139,14 +138,15 @@ export default function Buttons() {
                               className='sr-only peer'
                               checked
                             />
-                            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4
+                            <div
+                              className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4
                              peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700
                               peer-checked:after:translate-x-full peer-checked:after:border-white 
                               after:content-[''] after:absolute after:top-0.5 after:left-[2px]
                                after:bg-white after:border-gray-300 after:border after:rounded-full 
                                after:h-5 after:w-5 after:transition-all dark:border-gray-600
-                                peer-checked:bg-blue-600"></div>
-                            
+                                peer-checked:bg-blue-600"
+                            ></div>
                           </label>
                         </div>
                       </div>
@@ -173,7 +173,6 @@ export default function Buttons() {
                            after:h-5 after:w-5 after:transition-all dark:border-gray-600
                             peer-checked:bg-blue-600"
                             ></div>
-                            
                           </label>
                         </div>
                       </div>
@@ -193,12 +192,12 @@ export default function Buttons() {
                               disabled
                             />
                             <div className="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            
                           </label>
                         </div>
                       </div>
                     </div>
                     {/* second inner */}
+                    <h1 className='text-2xl py-4'>Social</h1>
                     <details className='border-t-2 border-b-2'>
                       <summary
                         className='py-2 outline-none cursor-pointer  flex gap-2 
@@ -207,12 +206,111 @@ export default function Buttons() {
                         Customize
                         <ChevronDownIcon className='text- h-6' />
                       </summary>
-                      <div className='px-4 pb-4'>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Unde neque in fugiat magni, quas animi enim
-                          veritatis deleniti ex. Impedit.
-                        </p>
+                      <div className='px- pb-4'>
+                        {/* shape */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>Shape</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Square
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Round
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of shape */}
+                        {/* style */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>style</h1>
+                            <div className='flex gap-4'>
+                              <div className='border-2 border-blue-600 h-28 w-32 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Minimal</h1>
+                                  <button
+                                    className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                                 py-3  shadow hover:shadow-lg outline-none focus:outline-none     mb- w-[50px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    Top
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of first button */}
+                              <div className='border-2 border-blue-600 h-28 w-32 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Colorful</h1>
+                                  <button
+                                    className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                                 py-3  shadow hover:shadow-lg outline-none focus:outline-none     mb- w-[50px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    Top
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of second button */}
+                              <div className='border-2 border-blue-600 h-28 w-32 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>One Click</h1>
+                                  <button
+                                    className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                                 py-3  shadow hover:shadow-lg outline-none focus:outline-none     mb- w-[50px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    Top
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of third button */}
+                            </div>
+                          </div>
+                        </div>
+                        {/* end of style */}
+                        {/* position */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2'>POSITION</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Top
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Bottom
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of position */}
                       </div>
                     </details>
                     {/* end of seccond inner */}

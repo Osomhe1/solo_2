@@ -125,14 +125,14 @@ export default function Sidebar() {
                 </li>
 
                 <li className='items-center'>
-                  <a
+                  <Link
                     className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
                     href='/auth/SignUp'
                     onClick={(e) => e.preventDefault()}
                   >
                     <i className='fas fa-clipboard-list text-blueGray-300 mr-2 text-sm'></i>{' '}
                     Register (soon)
-                  </a>
+                  </Link>
                 </li>
 
                 <li className='items-center'>
