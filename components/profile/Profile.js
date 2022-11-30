@@ -16,12 +16,12 @@ export default function Profile() {
       {/* <Navbar transparent /> */}
       <main className='profile-page '>
         {/* pages */}
-        <div className='flex justify-between xl:w-5/6 my-8'>
-          <div className=''>
-            <h1 className='text-blue-400 font-bold text-5xl'>My Page</h1>
+        <div className='md:flex justify-between -mt-5 md:-mt-24 xl:w-5/6 my-'>
+          <div className=' ml-20 md:ml-0'>
+            <h1 className='text-blue-400 font-bold text-5xl '>My Page</h1>
           </div>
           <div className=''>
-            <div className=''>
+            <div className='pt-4 md:pt-0'>
               <button
                 className='bg-white text- active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
@@ -81,7 +81,7 @@ export default function Profile() {
             </button>
           </div>
         </div>
-        <div className='bg-whit w-5/6'>
+        <div className='bg-whit md:w-5/6'>
           <section
             className='relative bg-white block'
             style={{ height: '200px', backgroundColor: 'white' }}
@@ -101,22 +101,7 @@ export default function Profile() {
             <div
               className='top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden'
               style={{ height: '70px' }}
-            >
-              {/* <svg
-                className='absolute bottom-0 overflow-hidden'
-                xmlns='http://www.w3.org/2000/svg'
-                preserveAspectRatio='none'
-                version='1.1'
-                viewBox='0 0 2560 100'
-                x='0'
-                y='0'
-              >
-                <polygon
-                  className='text-gray-300 fill-current'
-                  points='2560 0 2560 100 0 100'
-                ></polygon>
-              </svg> */}
-            </div>
+            ></div>
           </section>
           <section className='relative py-16 bg-w'>
             <div className='container mx-auto px-4 bg-white'>
@@ -125,27 +110,25 @@ export default function Profile() {
               rounded-lg -mt-20 '
               >
                 <div className='px-6'>
-                  <div className='flex flex-wrap justify-center'>
+                  <div className='grid md:flex flex-wrap justify-center'>
                     <div className='w-full  px-4  flex justify-'>
-                      <div className='relative'>
+                      <div className='relative pt-8 md:pt-0 '>
                         <Image
                           alt='...'
                           // src={require('assets/img/team-2-800x800.jpg').default}
                           // src='/public/images/team-2-800x800.jpg'
                           src={pic}
-                          className='shadow-xl rounded-full h-auto align-middle border-none absolute -m-12 -ml-20 lg:-ml-1'
-                          style={{ maxWidth: '150px' }}
+                          className='shadow-md rounded-full h-auto align-middle  border-none absolute -m-12 -ml-20 lg:-ml-1'
+                          style={{ maxWidth: '200px' }}
                           height={100}
                           width={120}
                         />
                       </div>
                     </div>
-                    
-                   
                   </div>
 
-                  <div className='text- mt-12  '>
-                    <form className='Avenir  xl:w-3/4 ml-44     '>
+                  <div className='text- mt-12 pt-14 md:pt-0  '>
+                    <form className='Avenir w-full  xl:w-3/4 md:ml-44     '>
                       <div className='relative  mb-3 '>
                         <label className='ml-2 text-sm font-semibold text-gray-700'>
                           Display Name
