@@ -1,78 +1,18 @@
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import React from 'react'
+import twitter from '../public/images/twitter.svg'
+import twitter_black from '../public/images/twitter_black.svg'
+import twitter_origin from '../public/images/twitter-original.svg'
+import email from '../public/images/email.svg'
+import email_2 from '../public/images/email_2.svg'
+import Image from 'next/image'
 
 export default function Buttons() {
   return (
     <div>
       <div className=''>
         {/* <!-- Start block --> */}
-        {/* <section class="bg-white dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
-            <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
-            <div class="max-w-screen-md mx-auto">
-                <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
-                    <h3 id="accordion-flush-heading-1">
-                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
-                            <span>Can I use Landwind in open-source projects?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </h3>
-                    <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
-                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">Landwind is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                            <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
-                        </div>
-                    </div>
-                    <h3 id="accordion-flush-heading-2">
-                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-                            <span>Is there a Figma file available?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </h3>
-                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
-                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">Landwind is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                            <p class="text-gray-500 dark:text-gray-400">Check out the <a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Landwind.</p>
-                        </div>
-                    </div>
-                    <h3 id="accordion-flush-heading-3">
-                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
-                            <span>What are the differences between Landwind and Tailwind UI?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </h3>
-                    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
-                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
-                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <h3 id="accordion-flush-heading-4">
-                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
-                            <span>What about browser support?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </h3>
-                    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
-                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
-                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> 
-            </div>               
-        </div>
-    </section> */}
+        
 
         <div className=''>
           <section className='bg-white dark:bg-gray-800 dark:text-gray-100 mx-4'>
@@ -95,12 +35,111 @@ export default function Buttons() {
                         Customize
                         <ChevronDownIcon className='text- h-6' />
                       </summary>
-                      <div className='px-4 pb-4'>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Unde neque in fugiat magni, quas animi enim
-                          veritatis deleniti ex. Impedit.
-                        </p>
+                      <div className='px- pb-4'>
+                        {/* shape */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>Shape</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Square
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Round
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of shape */}
+                        {/* style */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>style</h1>
+                            <div className='flex gap-4'>
+                              <div className='border border-blue-600 h-28 w-40 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Minimal</h1>
+                                  <button
+                                    className='bg-white flex text-black active:bg-gray-700 text-ms font-normal rounded-md
+                                 py-2  shadow hover:shadow-lg outline-none focus:outline-none items-center justify-evenly    mb- w-[100px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    <Image
+                                      src={email}
+                                      height={20}
+                                      w={20}
+                                      alt=''
+                                      //   className='mx-auto'
+                                    />
+                                    Email
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of first button */}
+                              <div className='border  h-28 w-40 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Colorful</h1>
+                                  <button
+                                    className='bg-gray-200 flex text- active:bg-gray-700 text-sm font-normal
+                                 py-2  shadow hover:shadow-lg outline-none focus:outline-none items-center justify-evenly    mb- w-[100px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    <Image
+                                      src={email_2}
+                                      height={20}
+                                      w={20}
+                                      alt=''
+                                      className='text-blue-500'
+                                      //   className='mx-auto'
+                                    />
+                                    Email
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of second button */}
+                            </div>
+                          </div>
+                        </div>
+                        {/* end of style */}
+                        {/* position */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>Label</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Type
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of position */}
                       </div>
                     </details>
                     {/* end of first inner */}
@@ -120,7 +159,6 @@ export default function Buttons() {
                               className='sr-only peer'
                             />
                             <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            
                           </label>
                         </div>
                       </div>
@@ -139,14 +177,15 @@ export default function Buttons() {
                               className='sr-only peer'
                               checked
                             />
-                            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4
+                            <div
+                              className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4
                              peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700
                               peer-checked:after:translate-x-full peer-checked:after:border-white 
                               after:content-[''] after:absolute after:top-0.5 after:left-[2px]
                                after:bg-white after:border-gray-300 after:border after:rounded-full 
                                after:h-5 after:w-5 after:transition-all dark:border-gray-600
-                                peer-checked:bg-blue-600"></div>
-                            
+                                peer-checked:bg-blue-600"
+                            ></div>
                           </label>
                         </div>
                       </div>
@@ -173,7 +212,6 @@ export default function Buttons() {
                            after:h-5 after:w-5 after:transition-all dark:border-gray-600
                             peer-checked:bg-blue-600"
                             ></div>
-                            
                           </label>
                         </div>
                       </div>
@@ -193,12 +231,12 @@ export default function Buttons() {
                               disabled
                             />
                             <div className="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            
                           </label>
                         </div>
                       </div>
                     </div>
                     {/* second inner */}
+                    <h1 className='text-2xl py-4'>Social</h1>
                     <details className='border-t-2 border-b-2'>
                       <summary
                         className='py-2 outline-none cursor-pointer  flex gap-2 
@@ -207,15 +245,425 @@ export default function Buttons() {
                         Customize
                         <ChevronDownIcon className='text- h-6' />
                       </summary>
-                      <div className='px-4 pb-4'>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Unde neque in fugiat magni, quas animi enim
-                          veritatis deleniti ex. Impedit.
-                        </p>
+                      <div className='px- pb-4'>
+                        {/* shape */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>Shape</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Square
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Round
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of shape */}
+                        {/* style */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2 uppercase'>style</h1>
+                            <div className='flex gap-4'>
+                              <div className='border-2 border-blue-600 h-28 w-40 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Minimal</h1>
+                                  <button
+                                    className='bg-white text-white border active:bg-gray-700 text-sm font-normal uppercase
+                                 py-3  shadow hover:shadow-lg outline-none focus:outline-none     mb- w-[50px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    <Image
+                                      src={twitter_black}
+                                      height={20}
+                                      w={20}
+                                      alt=''
+                                      className='mx-auto'
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of first button */}
+                              <div className='border-2 border-blue-600 h-28 w-40 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>Colorful</h1>
+                                  <button
+                                    className='bg-gray-200 border text-white active:bg-gray-700 text-sm font-normal uppercase
+                                 py-3  shadow hover:shadow-lg outline-none focus:outline-none     mb- w-[50px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    <Image
+                                      src={twitter_origin}
+                                      height={20}
+                                      w={20}
+                                      alt=''
+                                      className='mx-auto'
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of second button */}
+                              <div className='border-2 border-blue-600 h-28 w-40 text-center  '>
+                                <div className='py-4'>
+                                  <h1 className='py-1'>One Click</h1>
+                                  <button
+                                    className='bg-blue-500 flex text-white active:bg-gray-700 text-sm font-normal rounded-md
+                                 py-2  shadow hover:shadow-lg outline-none focus:outline-none items-center justify-evenly    mb- w-[100px] m-auto
+                                bottom-  '
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                  >
+                                    <Image
+                                      src={twitter}
+                                      height={15}
+                                      w={15}
+                                      alt=''
+                                      //   className='mx-auto'
+                                    />
+                                    Follow
+                                  </button>
+                                </div>
+                              </div>
+                              {/* end of third button */}
+                            </div>
+                          </div>
+                        </div>
+                        {/* end of style */}
+                        {/* position */}
+                        <div className=''>
+                          <div className=''>
+                            <h1 className='text-sm py-2'>POSITION</h1>
+                            <button
+                              className='bg-blue-500 text-white active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3  shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0  '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Top
+                            </button>
+                            <button
+                              className='bg-gray-200 text- active:bg-gray-700 text-sm font-normal uppercase
+                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 w-[100px]
+                       bottom-0 '
+                              type='button'
+                              style={{ transition: 'all .15s ease' }}
+                            >
+                              Bottom
+                            </button>
+                          </div>
+                        </div>
+                        {/* end of position */}
                       </div>
                     </details>
                     {/* end of seccond inner */}
+                  </div>
+                  {/* last inner */}
+                  <div className='px-4 pb-4'>
+                    <div className='my-3 border-b-2'>
+                      <h2 className='uppercase text-sm py-2'>CATEGORIES</h2>
+                      <button
+                        type='button'
+                        className='text-white bg-blue-500 border border-gray-300 focus:outline-none
+                         hover:bg-gray-100 focus:ring-4 focus:ring-gray-200  rounded-lg 
+                         text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white
+                          dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600
+                           dark:focus:ring-gray-700'
+                      >
+                        Social
+                      </button>
+                      <button
+                        type='button'
+                        className='py-2.5 px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'
+                      >
+                        Music
+                      </button>
+                      <button
+                        type='button'
+                        className='py-2.5 px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'
+                      >
+                        Podcast
+                      </button>
+                      <button
+                        type='button'
+                        className='py-2.5 px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700'
+                      >
+                        Contact
+                      </button>
+                    </div>
+                    <div className='my-3 py-3 '>
+                      <div className=' flex flex-wrap'>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                        <button
+                          type='button'
+                          className='text-gray-900 bg-white border flex gap-2 items-center border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+                        >
+                          Light
+                          <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            fill=''
+                            viewBox='0 0 24 24'
+                            strokeWidth={1.5}
+                            stroke='currentColor'
+                            className='w-5 h-5 '
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              d='M12 4.5v15m7.5-7.5h-15'
+                              // className=' fill-blue-500'
+                              className='fill-blue-500 text-blue-500'
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end of last inner */}
+                  <div className='text-center mt-6 float-right '>
+                    <button
+                      className='bg-blue-500 text-white active:bg-gray-700 text-sm font-bold uppercase
+                       px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
+                       bottom-0 '
+                      type='button'
+                      style={{ transition: 'all .15s ease' }}
+                    >
+                      save
+                    </button>
                   </div>
                 </details>
               </div>
