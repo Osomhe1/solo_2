@@ -55,7 +55,7 @@ export default function Sidebar() {
                   <li className='items-center hover:bg-gray-200'>
                     <Link
                       className='text-blueGray-700 hover:text-blueGray-500 text-xs flex  gap-2 items-center uppercase py-3 font-bold '
-                      href='/'
+                      href='/analytics'
                     >
                       {/* <i className='fas fa-newspaper text-blueGray-400 mr-2 text-sm'></i>{' '} */}
                       <svg
@@ -79,7 +79,7 @@ export default function Sidebar() {
                   <li className='items-center hover:bg-gray-200'>
                     <Link
                       className='text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block'
-                      href='/dashboard'
+                      href='/referrals'
                     >
                       <i className='fas fa-user-circle text-blueGray-400 mr-2 text-sm'></i>{' '}
                       Referrals

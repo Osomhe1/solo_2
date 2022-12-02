@@ -16,6 +16,8 @@ export default function Home() {
       <Head>
         <title>Airlink</title>
         <link rel="icon" href="/favicon.ico" />
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+         {/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> */}
       </Head>
       {/* <Header /> */}
       <Main />
