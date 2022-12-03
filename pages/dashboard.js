@@ -3,7 +3,7 @@ import NewSidebar from '../components/profile/NewSidebar'
 import Profile from '../components/profile/Profile'
 import Sidebar from '../components/sidebar/Sidebar'
 
-export default function Dashboard() {
+export default function Dashboard({children}) {
   return (
     <div>
       <section className='w-1/1 relative flex justify-between'>
@@ -17,7 +17,8 @@ export default function Dashboard() {
           <Sidebar />
         </div>
         <div className='relative w-[90%] md:w-[70%] m-auto  md:pt-32 pb-32 pt-12'>
-          <Profile className='absolute   md:pt-32 pb-32 pt-12 ' />
+          {/* <Profile className='absolute   md:pt-32 pb-32 pt-12 ' /> */}
+          {children}
         </div>
       </section>
     </div>

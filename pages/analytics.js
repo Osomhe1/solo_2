@@ -1,7 +1,12 @@
 import  {useState} from 'react'
 
 import { Bar } from 'react-chartjs-2'
-import {BarChart} from '../components/BarChart'
+// import {BarChart} from '../components/BarChart'
+import {
+  barOptions,
+  barLegends,
+} from '../components/utility/Chartbar.js'
+import { Chart as ChartJS } from 'chart.js/auto'
 
 
 export default function Analytics() {
@@ -16,10 +21,31 @@ export default function Analytics() {
         <h1 className='text-3xl text-black pb-6'>Dashboard</h1>
 
         <div className='flex flex-wrap mt-6'>
-          <div class='flex flex-col items-center w-full max-w-screen-md p-6 pb-6 mt-10 bg-white rounded-lg shadow-xl sm:p-8'>
-            <h2 class='text-xl font-bold'>Monthly Revenue</h2>
-            <span class='text-sm font-semibold text-gray-500'>2020</span>
-            <div class='flex items-end flex-grow w-full mt-2 space-x-2 sm:space-x-3'>
+          <div class='flex flex-col items- w-full max-w-screen-md p-6 pb-6 mt-10 bg-white rounded-lg shadow-xl sm:p-8'>
+            <h1 className='text-3xl font-semibold'>Views</h1>
+
+            <div className=' mt-12 flex gap-4    '>
+              <div className='w-1/2 border p-5 '>
+                <h2 className='text-2xl p-3 '>Today</h2>
+                <div className=' '>
+                  <h1 className='p-3 font-bold   text-blue-400  text-4xl  '>
+                    0
+                  </h1>
+                </div>
+              </div>
+              <div className='w-1/2 border p-5 '>
+                <h2 className='text-2xl p-3 '>All Time</h2>
+                <div className='  '>
+                  <h3 className='p-3 font-bold   text-blue-400  text-4xl '>
+                    0
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className=''>
+              <Bar {...barOptions} />
+            </div>
+            {/* <div class='flex items-end flex-grow w-full mt-2 space-x-2 sm:space-x-3'>
               <div class='relative flex flex-col items-center flex-grow pb-5 group'>
                 <span class='absolute top-0 hidden -mt-6 text-xs font-bold group-hover:block'>
                   $37,500
@@ -166,7 +192,7 @@ export default function Analytics() {
                 <span class='block w-4  h-4 bg-indigo-200'></span>
                 <span class='ml-1 text-xs font-medium'>New</span>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <div className='w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0'>
             <p className='text-xl pb-3 flex items-center'>
@@ -176,6 +202,30 @@ export default function Analytics() {
               <canvas id='chartTwo' width='400' height='200'></canvas>
             </div>
           </div> */}
+        </div>
+
+        {/* Clicks lock section */}
+        <div class=' items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+          <h1 className='text-3xl font-semibold'>Clicks</h1>
+
+          <div className=' mt-12 flex gap-4    '>
+            <div className='w-1/2 border p-5 '>
+              <h2 className='text-2xl p-3 '>Today</h2>
+              <div className='p-5 '>
+                <h3 className='p-3  blur-lg bg-blue-400 text-white text-2xl w-[150px] '>
+                  Click me
+                </h3>
+              </div>
+            </div>
+            <div className='w-1/2 border p-5 '>
+              <h2 className='text-2xl p-3 '>All Time</h2>
+              <div className='p-5  '>
+                <h3 className='p-3  blur-lg bg-blue-400 text-white text-2xl w-[150px] '>
+                  Click me
+                </h3>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
