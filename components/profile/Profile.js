@@ -112,7 +112,7 @@ export default function Profile() {
                 className='relative flex flex-col min-w-0 break-words  w-full mb-6 
               rounded-lg -mt-20 '
               >
-                <div className='px-6'>
+                <div className='px-6 relative'>
                   <div className='grid md:flex flex-wrap justify-center'>
                     <div className='w-full  px-4  flex justify-'>
                       <div className='relative pt-8 md:pt-0 '>
@@ -195,7 +195,7 @@ export default function Profile() {
 
                       <div className='text-center mt-6 float-right '>
                         <button
-                          className='bg-gray-200 text-white active:bg-gray-700 text-sm font-bold uppercase
+                          className='bg-gray-200 text-white active:bg-gray-700 absolute right-0 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                           type='button'

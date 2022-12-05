@@ -16,8 +16,8 @@ export default function Account() {
               <div className=''></div>
             </div>
           </div>
-          <section className=''>
-            <div class=' items-center w-full max-w-screen-lg xl:w-5/6 p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+          <section className='-mb-36'>
+            <div class=' items-center w-full max-w-screen-lg xl:w-5/6 p-6 pb-6 mt-10 gap-6 relative bg-white rounded-lg shadow-xl sm:p-8'>
               <h1 className='text-3xl font-semibold'>User Info</h1>
 
               <div className='text- mt-12   '>
@@ -87,7 +87,7 @@ export default function Account() {
 
                   <div className='text-center mt-6 float- items-end '>
                     <button
-                      className='bg-gray-200 text-white active:bg-gray-700 text-sm font-bold uppercase
+                      className='bg-gray-200 text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'
@@ -155,7 +155,7 @@ export default function Account() {
 
             {/* password box */}
 
-            <div class=' items-center w-full max-w-screen-lg p-6 xl:w-5/6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+            <div class=' items-center w-full max-w-screen-lg p-6 xl:w-5/6 pb-6 mt-10 relative  gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
               <h1 className='text-3xl font-semibold'>Password</h1>
 
               <div className='text- mt-12   '>
@@ -206,9 +206,9 @@ export default function Account() {
                     </p>
                   </div>
 
-                  <div className='text-center mt-6 float- items-end '>
+                  <div className='text-center  mt-6 float- items-end '>
                     <button
-                      className='bg-gray-200 text-white active:bg-gray-700 text-sm font-bold uppercase
+                      className='bg-gray-200 text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'
@@ -220,15 +220,15 @@ export default function Account() {
                 </form>
               </div>
             </div>
+            <div className='flex justify-between py-16 bottom-1   xl:w-5/6 -mb-8 '>
+              <div className=''>
+                <p className='text-red-600 underline'>Delete Account</p>
+              </div>
+              <div className=' text-gray-400'>
+                <p>Terms. Privact policy</p>
+              </div>
+            </div>
           </section>
-        </div>
-        <div className='flex justify-between py-8 bottom-0   xl:w-5/6 mt-12 '>
-          <div className=''>
-            <p className='text-red-600 underline'>Delete Account</p>
-          </div>
-          <div className=' text-gray-400'>
-            <p>Terms. Privact policy</p>
-          </div>
         </div>
       </div>
       {/* </ Post> */}

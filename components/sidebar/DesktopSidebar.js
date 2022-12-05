@@ -112,9 +112,9 @@ export default function Sidebar() {
                     <button
                       className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
                       href='#pablo'
-                      onFocus={showtheModal}
+                      // onFocus={showtheModal}
                     >
-                      {showModal && <Modal showtheModal={showtheModal} />}
+                      {/* {showModal && <Modal showtheModal={showtheModal} />} */}
                       <i className='fas fa-tools text-blueGray-300 mr-2 text-sm'></i>{' '}
                       Upgrade
                     </button>

@@ -7,12 +7,10 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
 export default function Appreance() {
   return (
     <div className=''>
-      
-
       {/* <!-- Start block --> */}
 
       <div className=''>
-        <section className='bg-white dark:bg-gray-800 dark:text-gray-100 mx-4'>
+        <section className='bg-white container mx-auto dark:bg-gray-800 dark:text-gray-100 relative '>
           {/* container flex flex-col justify-center p-4 mx-auto md:p-8 */}
           <div className=' max-w-screen-xl px-4 pb-8 mx-auto lg:pb-4 lg:px-6  '>
             <div className='flex flex-col  sm:p lg:px- xl:px- divide-gray-700'>
@@ -22,7 +20,6 @@ export default function Appreance() {
                  items-center '
                 >
                   Appearnces
-                 
                   <ChevronDownIcon className='text- h-14' />
                 </summary>
                 <div className='px-4 pb-4'>
@@ -117,7 +114,7 @@ export default function Appreance() {
                 <div className='text-center mt-6 float-right '>
                   <button
                     className='bg-blue-500 text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
+                       px-6 py-5 rounded absolute right-0 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                     type='button'
                     style={{ transition: 'all .15s ease' }}
