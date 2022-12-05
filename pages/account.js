@@ -1,17 +1,23 @@
 import React from 'react'
 // import Dashboard from './dashboard'
+// import Details from '../components/Details'
+import Post from '../components/Post'
 
 export default function Account() {
   return (
     // <Dashboard>
+    <>
+      {/* <Post > */}
       <div>
         <div>
-          <div className=''>
-            <h1 className='text-blue-500 font-semibold text-3xl'>Account</h1>
-            <div className=''></div>
+          <div className='-mt-5 md:-mt-24 xl:w-5/6'>
+            <div className=''>
+              <h1 className='text-blue-500 font-semibold text-3xl'>Account</h1>
+              <div className=''></div>
+            </div>
           </div>
-          <section>
-            <div class=' items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+          <section className=''>
+            <div class=' items-center w-full max-w-screen-lg xl:w-5/6 p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
               <h1 className='text-3xl font-semibold'>User Info</h1>
 
               <div className='text- mt-12   '>
@@ -96,7 +102,7 @@ export default function Account() {
 
             {/* Pages box */}
 
-            <div class=' items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+            <div class=' items-center w-full max-w-screen-lg xl:w-5/6 p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
               <h1 className='text-3xl font-semibold'>Pages</h1>
 
               <div className='text- mt-12   '>
@@ -149,7 +155,7 @@ export default function Account() {
 
             {/* password box */}
 
-            <div class=' items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
+            <div class=' items-center w-full max-w-screen-lg p-6 xl:w-5/6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
               <h1 className='text-3xl font-semibold'>Password</h1>
 
               <div className='text- mt-12   '>
@@ -216,7 +222,7 @@ export default function Account() {
             </div>
           </section>
         </div>
-        <div className='flex justify-between py-8 '>
+        <div className='flex justify-between py-8 bottom-0   xl:w-5/6 mt-12 '>
           <div className=''>
             <p className='text-red-600 underline'>Delete Account</p>
           </div>
@@ -225,6 +231,8 @@ export default function Account() {
           </div>
         </div>
       </div>
-    // {/* </Dashboard> */}
+      {/* </ Post> */}
+      {/* </Dashboard> */}
+    </>
   )
 }

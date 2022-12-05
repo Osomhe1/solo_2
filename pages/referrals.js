@@ -6,11 +6,15 @@ import airlink from '../public/images/solo_logo.jpeg'
 export default function Referrals() {
   return (
     <div>
-      <h1 className='text-blue-500 font-semibold text-3xl'>Referrals</h1>
+      <div className='-mt-5 md:-mt-24 xl:w-5/6'>
+        <h1 className='text-blue-500 font-semibold text-3xl'>Referrals</h1>
+      </div>
       <section>
         <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
           <div className=''>
-            <h1 className='text-3xl font-semibold py-4 mb-4 '>Share Invite Link</h1>
+            <h1 className='text-3xl font-semibold py-4 mb-4 '>
+              Share Invite Link
+            </h1>
             <div className='w-60'>
               <Image src={airlink} alt='logo' w={100} h={100} className='p-2' />
             </div>
@@ -18,8 +22,8 @@ export default function Referrals() {
           <div className=''>
             <p className='text-l text-md py-6 mt-8  '>
               Invite your friends to solo.to and they will receive{' '}
-              <span className='font-bold'>10% off</span> their purchase if they upgrade within 48
-              hours.
+              <span className='font-bold'>10% off</span> their purchase if they
+              upgrade within 48 hours.
             </p>
             <div className=''>
               <div className='relative'>

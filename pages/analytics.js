@@ -7,6 +7,7 @@ import {
   barLegends,
 } from '../components/utility/Chartbar.js'
 import { Chart as ChartJS } from 'chart.js/auto'
+// import Post from '../components/Post'
 
 
 export default function Analytics() {
@@ -16,9 +17,12 @@ export default function Analytics() {
     
 
   return (
+    //    <Post>
     <div>
       <section>
-        <h1 className='text-3xl text-black pb-6'>Dashboard</h1>
+        <div className='-mt-5 md:-mt-24 xl:w-5/6'>
+          <h1 className='text-blue-500 font-semibold text-3xl'> Analytics</h1>
+        </div>
 
         <div className='flex flex-wrap mt-6'>
           <div class='flex flex-col items- w-full max-w-screen-md p-6 pb-6 mt-10 bg-white rounded-lg shadow-xl sm:p-8'>
@@ -229,6 +233,7 @@ export default function Analytics() {
         </div>
       </section>
     </div>
+    // {/* </Post> */}
   )
 }
 

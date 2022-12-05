@@ -1,22 +1,25 @@
 import React from 'react'
 
 import Image from 'next/image'
-// import Footer from 'components/Footer.js'
 import pic from '../../public/images/team-2-800x800.jpg'
 import Appreance from '../Appreance'
 import Link from '../Link'
 import Buttons from '../Buttons'
 import Integrations from '../Integrations'
+// import Details from '../Details'
 // import Image from 'next/image'
+// import Post from '../Post'
 
 
 export default function Profile() {
   return (
     <>
       {/* <Navbar transparent /> */}
-      <main className='profile-page '>
+      {/* <Details> */}
+      {/* <Post> */}
+      <main className='profile-page mx- '>
         {/* pages */}
-        <div className='md:flex justify-between -mt-5 md:-mt-24 xl:w-5/6 my-'>
+        <div className='md:flex justify-between -mt-5 md:-mt-24 xl:w-5/6 my-  '>
           <div className=' ml-20 md:ml-0'>
             <h1 className='text-blue-400 font-bold text-5xl '>My Page</h1>
           </div>
@@ -226,6 +229,8 @@ export default function Profile() {
           </section>
         </div>
       </main>
+      {/* </Post> */}
+      {/* </Details> */}
     </>
   )
 }
