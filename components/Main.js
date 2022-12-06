@@ -4,7 +4,7 @@ import Layout from "./Layout";
 export default function Main() {
   return (
     <Layout>
-      <section className='text-gray-600 body-font bg-blue-100'>
+      <section className='text-gray-600 body-font bg-[#F4F4F7]'>
         <div className='max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
           <div className='lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center'>
             <h1 className='mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900'>
@@ -21,7 +21,7 @@ export default function Main() {
                 <input
                   type='email'
                   className='border-0 px-3 py-5 placeholder-gray-400 
-                   text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring  w-full'
+                   text-gray-700 bg-white rounded focus:ring-[#8BC940] text-sm shadow focus:outline-none focus:ring  w-full'
                   placeholder='Email'
                   style={{ transition: 'all .15s ease' }}
                 />
@@ -31,7 +31,7 @@ export default function Main() {
                 <input
                   type='password'
                   className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
+                   text-sm shadow focus:outline-none focus:ring-[#8BC940] focus:ring w-full'
                   placeholder='Password'
                   style={{ transition: 'all .15s ease' }}
                 />
@@ -41,7 +41,7 @@ export default function Main() {
                   <input
                     type='password'
                     className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
+                   text-sm shadow focus:outline-none focus:ring focus:ring-[#8BC940] w-full'
                     placeholder='Password'
                     style={{ transition: 'all .15s ease' }}
                   />
@@ -50,7 +50,7 @@ export default function Main() {
                   <input
                     type='password'
                     className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
+                   text-sm shadow focus:outline-none focus:ring  focus:ring-[#8BC940] w-full  '
                     placeholder='Confirm Password'
                     style={{ transition: 'all .15s ease' }}
                   />
@@ -59,8 +59,8 @@ export default function Main() {
 
               <div className='text-center mt-6'>
                 <button
-                  className='bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase
-                   px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
+                  className='bg-[#8BC940] hover:bg-[#5AB025] hover:animate-spin  text-white active:bg-gray-700 text-sm font-bold uppercase
+                   px-6 py-5 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
                   type='button'
                   style={{ transition: 'all .15s ease' }}
                 >
@@ -74,9 +74,9 @@ export default function Main() {
             </form>
             {/* </section> */}
           </div>
-          <div className='xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10'>
+          <div className='xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 '>
             <Image
-              className='w-80 md:ml-1 ml-24'
+              className='w-80 md:ml-1 ml-24 '
               alt='iPhone-12'
               src='/images/solo_img.jpeg'
               width={300}

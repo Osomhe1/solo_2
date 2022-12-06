@@ -13,15 +13,12 @@ export default function Header() {
             href='/'
             className='text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline'
           >
-            {/* <h1 className='text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl'>
-              NINE4
-            </h1> */}
             <Image
               className='Avenir object-fit '
-              alt='iPhone-12'
-              src='/images/solo_logo.jpeg'
+              alt='airlink logo'
+              src='/images/airlink_logo.jpg'
               width={60}
-              height={40}
+              height={60}
             />
           </Link>
           <button
@@ -85,7 +82,7 @@ export default function Header() {
               <li className='py-1 md:py-0'>
                 <Link
                   className='inline-flex items-center px-4 py-2 mt-2 font-medium text-blue-600 transition
-                   border-2 border-blue-600 duration-500 ease-in-out transform bg-transparent rounded-lg 
+                   border-2 border-[#8BC940] duration-500 ease-in-out hover:bg-[#8BC940] hover:text-white transform bg-transparent rounded-lg 
                    text-md md:mt-0 md:ml-4 bg-white mx-4'
                   href='/auth/Login'
                 >
@@ -100,7 +97,7 @@ export default function Header() {
               <li className='py-1 md:py-0'>
                 <Link
                   className='inline-flex items-center px-4 py-2 mt-2  font-medium text-blue-600 transition
-                   border-2 border-blue-600 duration-500 ease-in-out transform bg-transparent rounded-lg
+                   border-2 border-[#8BC940] hover:bg-[#8BC940] hover:text-white duration-500 ease-in-out transform bg-transparent rounded-lg
                     text-md md:mt-0 md:ml-4 bg-white mx-4'
                   href='/auth/SignUp'
                 >

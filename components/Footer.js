@@ -7,9 +7,9 @@ export default function Footer() {
     <>
       <footer className='grotesk bg-[#f9fbfb]'>
         <div className='max-w-8xl mx-auto px-5 py-24 text-black'>
-          <div className='order-first flex flex-wrap text-left'>
+          <div className='order-first flex flex-wrap  text-left'>
             <div className='w-full md:w-2/4 lg:w-1/5'>
-              <a href='#/'>
+              <Link href='#/'>
                 <div className='relative border transition hover:border-gray-500'>
                   <div className='p-6'>
                     <div className=''>
@@ -18,7 +18,7 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className='w-full px-4 md:w-2/4 lg:w-1/5'>
               <h2 className='mb-3 text-lg tracking-widest'>Service</h2>
@@ -32,16 +32,11 @@ export default function Footer() {
                 <li>
                   <Link href='/portals'>NFC Portals</Link>
                 </li>
-                
-                
-                
               </nav>
             </div>
             <div className='w-full px-4 md:w-2/4 lg:w-1/5'>
               <h2 className='mb-3 text-lg tracking-widest'>Company</h2>
               <nav className='mb-10 list-none space-y-2 py-3'>
-                
-                
                 <li>
                   <Link href='/terms'>Terms</Link>
                 </li>
@@ -71,7 +66,6 @@ export default function Footer() {
                 <li>
                   <Link href='#/'>Instagram </Link>
                 </li>
-                
               </nav>
             </div>
           </div>

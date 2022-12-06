@@ -9,12 +9,12 @@ export default function Howitworks() {
     <Layout>
       <div>
         <section>
-          <div className='max-w-screen-2xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
-            <div className='lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col  md:text-left  items-center text-center'>
-              <h1 className='mb-5 md:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900'>
+          <div className='max-w-screen-2xl w-4/5 mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
+            <div className=' md:w-1/  pt-6  items-center text-center'>
+              <h1 className='mb-5 md:text-4xl text-5xl text-center   items-center  font-bold  w-2/2 text-gray-900'>
                 How It Works
               </h1>
-              <p className='mb-4 w-3/5 text-center text-black text-lg'>
+              <p className='w-full md:w-3/5 text-center  m-auto text-black text-lg'>
                 Make it easy for your followers to find your important links,
                 social media, and latest content by having it all on one page.
               </p>
@@ -129,39 +129,39 @@ export default function Howitworks() {
           {/* <!-- End block --> */}
           {/* start */}
           <section>
-            <div className=' text-center text-6xl pb-8 font-bold lg:pt-28'>
+            <div className=' text-center text-2xl md:text-4xl lg:text-6xl   lg:pb-8 font-bold lg:pt-28'>
               <h1>The perfect bio link for...</h1>
             </div>
 
             <div
-              className='flex w-4/5 justify-between   px-4 pt-10 pb-8 mx-auto lg:gap-2  lg:py-8
+              className='grid lg:flex md:grid md:grid-cols-2 w-4/5 justify-between gap-4   px-4 pt-10 pb-8 mx-auto lg:gap-2  lg:py-8
            lg:pt-8 m-auto'
             >
-              <div class='grid lg:mt-0 lg:col-span-5 p-10 w-1/4 cursor-pointer   bg-white hover:text-blue-600 '>
-                <div className='flex py-5  '>
+              <div class='grid lg:mt-0 lg:col-span-5 p-10 lg:w-1/4 cursor-pointer   bg-white hover:text-blue-600 '>
+                <div className='flex   '>
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
@@ -174,31 +174,31 @@ export default function Howitworks() {
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
-              <div class='grid lg:mt-0 lg:col-span-5 p-10 w-1/4  cursor-pointer   bg-white hover:text-blue-600  '>
+              <div class='grid lg:mt-0 lg:col-span-5 p-10 lg:w-1/4  cursor-pointer   bg-white hover:text-blue-600  '>
                 <div className='flex '>
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
@@ -211,31 +211,31 @@ export default function Howitworks() {
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
-              <div class='grid lg:mt-0 lg:col-span-5 p-10 w-1/4 cursor-pointer    bg-white hover:text-blue-600  '>
+              <div class='grid lg:mt-0 lg:col-span-5 p-10 lg:w-1/4 cursor-pointer    bg-white hover:text-blue-600  '>
                 <div className='flex'>
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
                     height={20}
                   />
                   <Image
-                    className='w-10 h-10 rounded-full md:ml-1 ml-24'
+                    className='w-10 h-10 rounded-full md:ml-1 '
                     alt='iPhone-12'
                     src='/images/iPhone-12-Mockup.png'
                     width={30}
@@ -248,7 +248,7 @@ export default function Howitworks() {
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
-              <div class='grid lg:mt-0 w-1/4 p-10 text-white cursor-pointer   bg-blue-500   '>
+              <div class='grid lg:mt-0 lg:w-1/4 p-10 text-white cursor-pointer   bg-blue-500   '>
                 <div className=''>
                   <h4 className=' text-4xl  '>
                     Artists, Creators, Businesses, & many others
