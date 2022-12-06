@@ -69,7 +69,7 @@ export default function Header() {
                 <Link
                   className='font-medium text-gray-600 hover:text-gray-900 px-5 py-1 flex items-center
                    transition duration-150 ease-in-out'
-                  href='/price/Price'
+                  href='/price/price'
                 >
                   Pricing
                 </Link>

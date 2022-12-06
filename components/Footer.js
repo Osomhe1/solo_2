@@ -24,39 +24,29 @@ export default function Footer() {
               <h2 className='mb-3 text-lg tracking-widest'>Service</h2>
               <nav className='list-none space-y-2 py-3'>
                 <li>
-                  <Link href='#/'>How It Works </Link>
+                  <Link href='/howitworks'>How It Works </Link>
                 </li>
                 <li>
-                  <Link href='#/'>Pricing</Link>
+                  <Link href='/price/price'>Pricing</Link>
                 </li>
                 <li>
-                  <Link href='#/'>NFC Portals</Link>
+                  <Link href='/portals'>NFC Portals</Link>
                 </li>
-                <li>
-                  <Link href='#/'>vs. Linktree</Link>
-                </li>
-                <li>
-                  <Link href='#/'>Sign In</Link>
-                </li>
-                <li>
-                  <Link href='#/'>Malesuada.</Link>
-                </li>
+                
+                
+                
               </nav>
             </div>
             <div className='w-full px-4 md:w-2/4 lg:w-1/5'>
               <h2 className='mb-3 text-lg tracking-widest'>Company</h2>
               <nav className='mb-10 list-none space-y-2 py-3'>
+                
+                
                 <li>
-                  <Link href='#/'>Affiliate Program </Link>
+                  <Link href='/terms'>Terms</Link>
                 </li>
                 <li>
-                  <Link href='#/'>Branding</Link>
-                </li>
-                <li>
-                  <Link href='#/'>Terms</Link>
-                </li>
-                <li>
-                  <Link href='#/'>Privacy</Link>
+                  <Link href='/privacy'>Privacy</Link>
                 </li>
               </nav>
             </div>
@@ -67,7 +57,7 @@ export default function Footer() {
                   <Link href='#/'>Help Docs </Link>
                 </li>
                 <li>
-                  <Link href='#/'>Expert Tips</Link>
+                  <Link href='/tips'>Expert Tips</Link>
                 </li>
 
                 <li>
@@ -81,9 +71,7 @@ export default function Footer() {
                 <li>
                   <Link href='#/'>Instagram </Link>
                 </li>
-                <li>
-                  <Link href='#/'>Blog</Link>
-                </li>
+                
               </nav>
             </div>
           </div>
