@@ -20,9 +20,9 @@ export default function index() {
               </p>
               <div className='flex justify-center'>
                 <Link
-                  className='inline-flex items-center px-5 py-3 mt-2 font-medium
-                   text-white transition duration-500 ease-in-out transform bg-transparent 
-                   border rounded-lg bg-[#8BC940] '
+                  className=' bg-[#8BC940] inline-flex items-center px-5 py-3 mt-2 font-medium
+                   text-white transition duration-500 ease-in-out transform  
+                   border rounded-lg bg-[#8BC940  '
                   href='/#'
                 >
                   <span className='justify-center'>Find out more</span>
@@ -66,7 +66,7 @@ export default function index() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                    transition duration-500 ease-in-out transform  border rounded-lg
                      bg-[#8BC940] '
                     href='/#'
                   >
@@ -103,7 +103,7 @@ export default function index() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                    transition duration-500 ease-in-out transform  border rounded-lg
                      bg-[#8BC940] '
                     href='/#'
                   >

@@ -10,7 +10,7 @@ export default function Howitworks() {
       <div>
         <section>
           <div className='max-w-screen-2xl w-4/5 mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
-            <div className=' md:w-1/  pt-6  items-center text-center'>
+            <div className=' md:w-1/  pt-6 m-auto items-center text-center'>
               <h1 className='mb-5 md:text-4xl text-5xl text-center   items-center  font-bold  w-2/2 text-gray-900'>
                 How It Works
               </h1>
@@ -46,7 +46,7 @@ export default function Howitworks() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                    transition duration-500 ease-in-out transform  border rounded-lg
                      bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
@@ -83,7 +83,7 @@ export default function Howitworks() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg 
+                    transition duration-500 ease-in-out transform  border rounded-lg 
                     bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
@@ -120,7 +120,7 @@ export default function Howitworks() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                    transition duration-500 ease-in-out transform  border rounded-lg
                      bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
@@ -278,7 +278,7 @@ export default function Howitworks() {
                 <div className='flex justify-center'>
                   <Link
                     className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
-                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                    transition duration-500 ease-in-out transform  border rounded-lg
                      bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
