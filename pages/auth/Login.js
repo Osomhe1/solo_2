@@ -18,7 +18,7 @@ export default function Login() {
             <div className='relative  mb-3 '>
               <input
                 type='name'
-                className='border-0 px-3 py-5 placeholder-gray-400 
+                className='border-0 px-3 py-5 placeholder-gray-400 focus:ring-[#8BC940]
                    text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring  w-full'
                 placeholder='UserName'
                 style={{ transition: 'all .15s ease' }}
@@ -28,7 +28,7 @@ export default function Login() {
             <div className='relative w-full mb-3'>
               <input
                 type='email'
-                className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
+                className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded focus:ring-[#8BC940]
                    text-sm shadow focus:outline-none focus:ring w-full'
                 placeholder='Email'
                 style={{ transition: 'all .15s ease' }}
@@ -65,7 +65,7 @@ export default function Login() {
 
             <div className='text-center mt-6'>
               <button
-                className='bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940] hover:bg-[#5AB025] text-white active:bg-gray-700 text-sm font-bold uppercase
                    px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
                 type='button'
                 style={{ transition: 'all .15s ease' }}
@@ -75,7 +75,7 @@ export default function Login() {
             </div>
             <div className='text-center mt-6'>
               <button
-                className=' text-gray-300 hover:text-gray-500 active:bg-gray-700 text-sm font-bold uppercase
+                className=' text-gray-300 hover:bg-[#5AB025] hover:text-gray-500 active:bg-gray-700 text-sm font-bold uppercase
                    px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
                 type='button'
                 style={{ transition: 'all .15s ease' }}

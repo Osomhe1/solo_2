@@ -8,7 +8,7 @@ export default function index() {
     <Layout>
       <div>
         {' '}
-        <section className='text-gray-600 body-font bg-blue-100'>
+        <section className='text-gray-600 body-font bg-[#F4F4F7]'>
           <div className='max-w-screen-2xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
             <div className='lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center'>
               <h1 className='mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900'>
@@ -20,8 +20,10 @@ export default function index() {
               </p>
               <div className='flex justify-center'>
                 <Link
-                  className='inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
-                  href='https://github.com/r1/nine4-2/'
+                  className='inline-flex items-center px-5 py-3 mt-2 font-medium
+                   text-white transition duration-500 ease-in-out transform bg-transparent 
+                   border rounded-lg bg-[#8BC940] '
+                  href='/#'
                 >
                   <span className='justify-center'>Find out more</span>
                 </Link>
@@ -63,8 +65,10 @@ export default function index() {
                 </p>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
-                    href='/'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                     bg-[#8BC940] '
+                    href='/#'
                   >
                     <span className='justify-center px-6 py-4'>Order</span>
                   </Link>
@@ -98,8 +102,10 @@ export default function index() {
                 </p>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
-                    href='/'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                     bg-[#8BC940] '
+                    href='/#'
                   >
                     <span className='justify-center px-6 py-4'>Order</span>
                   </Link>

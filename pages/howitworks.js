@@ -45,7 +45,9 @@ export default function Howitworks() {
                 </p>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                     bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
                     <span className='justify-center px-6 py-4'>
@@ -80,7 +82,9 @@ export default function Howitworks() {
                 </p>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg 
+                    bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
                     <span className='justify-center px-6 py-4'>
@@ -115,7 +119,9 @@ export default function Howitworks() {
                 </p>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                     bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
                     <span className='justify-center px-6 py-4'>
@@ -170,7 +176,7 @@ export default function Howitworks() {
                 </div>
 
                 <div className='py-6'>
-                  <h4 className='text-blue-400 text-4xl  '>Musicians</h4>
+                  <h4 className='text-[#8BC940] text-4xl  '>Musicians</h4>
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
@@ -207,7 +213,7 @@ export default function Howitworks() {
                 </div>
 
                 <div className=''>
-                  <h4 className='text-blue-400 text-4xl  '>Podcasters</h4>
+                  <h4 className='text-[#8BC940] text-4xl  '>Podcasters</h4>
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
@@ -244,11 +250,11 @@ export default function Howitworks() {
                 </div>
 
                 <div className=''>
-                  <h4 className='text-blue-400 text-4xl  '>Streamers</h4>
+                  <h4 className='text-[#8BC940] text-4xl  '>Streamers</h4>
                   <p className='py-2'> Learn why</p>
                 </div>
               </div>
-              <div class='grid lg:mt-0 lg:w-1/4 p-10 text-white cursor-pointer   bg-blue-500   '>
+              <div class='grid lg:mt-0 lg:w-1/4 p-10 text-white cursor-pointer   bg-[#8BC940] hover:bg-[#5AB025]   '>
                 <div className=''>
                   <h4 className=' text-4xl  '>
                     Artists, Creators, Businesses, & many others
@@ -271,7 +277,9 @@ export default function Howitworks() {
                 </h4>
                 <div className='flex justify-center'>
                   <Link
-                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900'
+                    className='inline-flex items-center px-5 py-3  mt-2 font-medium text-white 
+                    transition duration-500 ease-in-out transform bg-transparent border rounded-lg
+                     bg-[#8BC940] hover:bg-[#5AB025]'
                     href='/auth/SignUp'
                   >
                     <span className='justify-center px-6 py-4'>

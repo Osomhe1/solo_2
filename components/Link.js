@@ -15,19 +15,7 @@ export default function Link() {
                 <details>
                   <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between items-center '>
                     Links & Embeds
-                    {/* <svg
-                      data-accordion-icon=''
-                      class='w-6 h-6  shrink-0'
-                      fill='currentColor'
-                      viewBox='0 0 20 20'
-                      xmlns='http://www.w3.org/2000/svg'
-                    >
-                      <path
-                        fill-rule='evenodd'
-                        d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
-                        clip-rule='evenodd'
-                      ></path>
-                    </svg> */}
+                   
                     <ChevronDownIcon className='text- h-14' />
                   </summary>
                   <div className='px-4 pb-4'>
@@ -59,7 +47,7 @@ export default function Link() {
                           id='links'
                           placeholder='no links or embles'
                           className='bg-gray-50  text-center border-dashed border-2 border-gray-300 text-gray-900 text-sm 
-                          rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-5
+                          rounded-lg focus:ring-[#8BC940] focus:border-[#8BC940] block w-full p-2.5 py-5
                            dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                             dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                           required
@@ -69,7 +57,7 @@ export default function Link() {
                   </div>
                   <div className='text-center mt-6 float-right '>
                     <button
-                      className='bg-blue-500 text-white active:bg-gray-700 text-sm font-bold uppercase
+                      className='bg-[#8BC940] text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded absolute right-0 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'

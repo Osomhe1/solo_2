@@ -12,7 +12,7 @@ export default function Account() {
         <div>
           <div className='-mt-5 md:-mt-24 xl:w-5/6'>
             <div className=''>
-              <h1 className='text-blue-500 font-semibold text-3xl'>Account</h1>
+              <h1 className='text-[#8BC940] font-semibold text-3xl'>Account</h1>
               <div className=''></div>
             </div>
           </div>
@@ -28,7 +28,7 @@ export default function Account() {
                     </label>
                     <input
                       type='email'
-                      className='border-0 px-3 py-5 placeholder-gray-400 
+                      className='border-0 px-3 py-5  placeholder-gray-400 focus:ring-[#8BC940]
                    text-gray-700 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring  w-full'
                       placeholder='JohnDoe@gmail.com'
                       value='airlink@gmail.com'
@@ -42,7 +42,7 @@ export default function Account() {
                     </label>
                     <input
                       type='text'
-                      className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
+                      className='border-0 px-3 py-5 focus:ring-[#8BC940]  placeholder-gray-400 text-gray-700 bg-gray-50 rounded
                          text-sm shadow focus:outline-none focus:ring w-full'
                       placeholder='USERNAME'
                       value='airlink'
@@ -112,7 +112,7 @@ export default function Account() {
                       <p className='text-md font-normal'>Airlink</p>
                     </div>
                     <div className=''>
-                      <button className='bg-blue-600 text-white uppercase font-semibold px-2 border-0 text-sm p-1'>
+                      <button className='bg-[#8BC940] text-white uppercase font-semibold px-2 border-0 text-sm p-1'>
                         current
                       </button>
                     </div>
@@ -130,7 +130,7 @@ export default function Account() {
                       </label>
                       <input
                         type='text'
-                        className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
+                        className='border-0 px-3 py-5 focus:ring-[#8BC940]  placeholder-gray-400 text-gray-700 bg-gray-50 rounded
                          text-sm shadow focus:outline-none focus:ring w-full'
                         placeholder='USERNAME'
                         value='airlink'
@@ -139,7 +139,7 @@ export default function Account() {
                     </div>
                     <div className='text-center mt-6 float- w-1/3 '>
                       <button
-                        className='bg-gray-300 text-white active:bg-gray-700 text-sm font-bold uppercase
+                        className='bg-[#8BC940] text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full
                        bottom-0 '
                         type='button'
@@ -167,7 +167,7 @@ export default function Account() {
                     <input
                       type='password'
                       className='border-0 px-3 py-5 placeholder-gray-400 
-                   text-gray-700 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring  w-full'
+                   text-gray-700 bg-gray-50 rounded text-sm shadow focus:ring-[#8BC940]  focus:outline-none focus:ring  w-full'
                       placeholder='CURRENT'
                       style={{ transition: 'all .15s ease' }}
                     />
@@ -181,7 +181,7 @@ export default function Account() {
                       <input
                         type='password'
                         className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
-                         text-sm shadow focus:outline-none focus:ring w-full'
+                         text-sm shadow focus:outline-none focus:ring focus:ring-[#8BC940]  w-full'
                         placeholder='Enter yout new password'
                         style={{ transition: 'all .15s ease' }}
                       />
@@ -194,21 +194,21 @@ export default function Account() {
                       <input
                         type='password'
                         className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
-                         text-sm shadow focus:outline-none focus:ring w-full'
+                         text-sm shadow focus:outline-none focus:ring-[#8BC940] focus:ring w-full'
                         placeholder='Enter yout new password(again)'
                         style={{ transition: 'all .15s ease' }}
                       />
                     </div>
                   </div>
                   <div className='border inline-block'>
-                    <p className='p-1 mx-4 text-blue-600 font-normal text-sm'>
+                    <p className='p-1 mx-4 text-[#8BC940] font-normal text-sm'>
                       Enable Two-Factor Authentication
                     </p>
                   </div>
 
                   <div className='text-center  mt-6 float- items-end '>
                     <button
-                      className='bg-gray-200 text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
+                      className='bg-[#8BC940] text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'

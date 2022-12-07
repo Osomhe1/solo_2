@@ -52,7 +52,7 @@ export default function Sidebar() {
                 >
                   <li className='items-center hover:bg-gray-200 '>
                     <Link
-                      className='text-pink-500 hover:text-pink-600 flex  gap-2 items-center text-xs uppercase py-3 font-bold '
+                      className='text-[#8BC940]  hover:text-[#8BC940] flex  gap-2 items-center text-xs uppercase py-3 font-bold '
                       href='/dashboard'
                     >
                       {/* <i className='fas fa-tv opac mr-2 text-sm'></i> */}
@@ -80,7 +80,7 @@ export default function Sidebar() {
                     >
                       {/* <i className='fas fa-user-circle text-blueGray-400 mr-2 text-sm'></i>{' '} */}
                       <IoMdContacts className='text-2xl' />
-                      Referrals
+                      Wallet
                     </Link>
                   </li>
 

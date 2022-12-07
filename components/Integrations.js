@@ -34,7 +34,7 @@ export default function Integrations() {
                     <div className='py-1'>
                       <div className=''>
                         <h1
-                          className=' text-sm font-medium uppercase text-gray-900
+                          className=' text-sm font-medium uppercase text-[#8BC940]
                            dark:text-gray-300 py-1'
                         >
                           LINK SEARCH
@@ -45,14 +45,17 @@ export default function Integrations() {
                             value=''
                             className='sr-only peer'
                           />
-                          <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                          <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 
+                          peer-focus:ring-[#8BC940] dark:peer-focus:ring-blue-800 dark:bg-gray-700 
+                          peer-checked:after:translate-x-full peer-checked:after:border-white 
+                          after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                         </label>
                       </div>
                     </div>
                     <div className='py-1'>
                       <div className=''>
                         <h1
-                          className=' text-sm font-medium uppercase text-gray-900
+                          className=' text-sm font-medium uppercase text-[#8BC940]
                            dark:text-gray-300 py-1'
                         >
                           META PIXEL
@@ -66,7 +69,7 @@ export default function Integrations() {
                           />
                           <div
                             className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4
-                             peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700
+                             peer-focus:ring-[#8BC940] dark:peer-focus:ring-blue-800 dark:bg-gray-700
                               peer-checked:after:translate-x-full peer-checked:after:border-white 
                               after:content-[''] after:absolute after:top-0.5 after:left-[2px]
                                after:bg-white after:border-gray-300 after:border after:rounded-full 
@@ -79,7 +82,7 @@ export default function Integrations() {
                     <div className='py-1'>
                       <div className=''>
                         <h1
-                          className=' text-sm font-medium uppercase text-gray-900
+                          className=' text-sm font-medium uppercase text-[#8BC940]
                            dark:text-gray-300 py-1'
                         >
                           CONTACT CAPTURE
@@ -105,8 +108,9 @@ export default function Integrations() {
                   </div>
                   <div className='text-center mt-6 float-right '>
                     <button
-                      className='bg-blue-500 text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-5 absolute right-0 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
+                      className='bg-[#8BC940] text-white active:bg-gray-700 text-sm font-bold uppercase
+                       px-6 py-5 absolute right-0 rounded shadow hover:shadow-lg outline-none 
+                       focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'
                       style={{ transition: 'all .15s ease' }}

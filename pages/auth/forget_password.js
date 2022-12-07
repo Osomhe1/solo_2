@@ -18,7 +18,7 @@ export default function ForgetPassword() {
               <input
                 type='email'
                 className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
+                   text-sm shadow focus:outline-none focus:ring w-full focus:ring-[#8BC940]'
                 placeholder='Email'
                 style={{ transition: 'all .15s ease' }}
               />
@@ -26,7 +26,7 @@ export default function ForgetPassword() {
 
             <div className='text-center mt-6'>
               <button
-                className='bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940] hover:bg-[#5AB025] text-white active:bg-gray-700 text-sm font-bold uppercase
                    px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
                 type='button'
                 style={{ transition: 'all .15s ease' }}
