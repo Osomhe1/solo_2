@@ -81,7 +81,7 @@ export default function Header() {
               </li>
               <li className='py-1 md:py-0'>
                 <Link
-                  className='inline-flex items-center px-4 py-2 mt-2 font-medium text-blue-600 transition
+                  className='inline-flex items-center px-4 py-2 mt-2 font-medium text-[#8BC940] transition
                    border-2 border-[#8BC940] duration-500 ease-in-out hover:bg-[#8BC940] hover:text-white transform bg-transparent rounded-lg 
                    text-md md:mt-0 md:ml-4 bg-white mx-4'
                   href='/auth/Login'
@@ -96,7 +96,7 @@ export default function Header() {
               </li>
               <li className='py-1 md:py-0'>
                 <Link
-                  className='inline-flex items-center px-4 py-2 mt-2  font-medium text-blue-600 transition
+                  className='inline-flex items-center px-4 py-2 mt-2  font-medium text-[#8BC940] transition
                    border-2 border-[#8BC940] hover:bg-[#8BC940] hover:text-white duration-500 ease-in-out transform bg-transparent rounded-lg
                     text-md md:mt-0 md:ml-4 bg-white mx-4'
                   href='/auth/SignUp'
