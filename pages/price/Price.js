@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import Link from 'next/link'
 import Layout from '../../components/Layout'
 
 export default function Price() {
@@ -124,12 +125,12 @@ export default function Price() {
                     </span>
                   </li>
                 </ul>
-                <a
-                  href='#'
-                  className='text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
+                <Link
+                  href='#/'
+                  className='text-white bg-[#8BC940] focus:ring-[#8BC940]  hover:bg-[#97ff19] focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
                 >
                   Get started
-                </a>
+                </Link>
               </div>
               {/* <!-- Pricing Card --> */}
               <div className='flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white'>
@@ -235,12 +236,13 @@ export default function Price() {
                     </span>
                   </li>
                 </ul>
-                <a
-                  href='#'
-                  className='text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
+                <Link
+                  href='#/'
+                  className='text-white bg-[#8BC940] focus:ring-[#8BC940]  hover:bg-[#97ff19] focus:ring-4  
+                  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
                 >
                   Get started
-                </a>
+                </Link>
               </div>
               {/* <!-- Pricing Card --> */}
               <div className='flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white'>
@@ -346,12 +348,12 @@ export default function Price() {
                     </span>
                   </li>
                 </ul>
-                <a
-                  href='#'
-                  className='text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
+                <Link
+                  href='/#'
+                  className='text-white bg-[#8BC940] focus:ring-[#8BC940]  hover:bg-[#97ff19] focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
                 >
                   Get started
-                </a>
+                </Link>
               </div>
               {/* <!-- Pricing Card --> */}
               <div className='flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white'>
@@ -457,12 +459,12 @@ export default function Price() {
                     </span>
                   </li>
                 </ul>
-                <a
-                  href='#'
-                  className='text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
+                <Link
+                  href='#/'
+                  className='text-white bg-[#8BC940] focus:ring-[#8BC940]  hover:bg-[#97ff19] focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900'
                 >
                   Get started
-                </a>
+                </Link>
               </div>
             </div>
           </div>

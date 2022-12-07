@@ -27,7 +27,7 @@ export default function Footer() {
                   <Link href='/howitworks'>How It Works </Link>
                 </li>
                 <li>
-                  <Link href='/price/price'>Pricing</Link>
+                  <Link href='/price/Price'>Pricing</Link>
                 </li>
                 <li>
                   <Link href='/portals'>NFC Portals</Link>
