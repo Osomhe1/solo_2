@@ -60,7 +60,7 @@ export default function Account() {
                             className='h-5 w-4'
                             viewBox='0 0 20 20'
                             //   fill='currentColor'
-                            fill='blue'
+                            fill='#8BC940 '
                           >
                             <path
                               fillRule='evenodd'
@@ -87,7 +87,7 @@ export default function Account() {
 
                   <div className='text-center mt-6 float- items-end '>
                     <button
-                      className='bg-gray-200 text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
+                      className='bg-[#8BC940]  text-white absolute right-0 active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                       type='button'

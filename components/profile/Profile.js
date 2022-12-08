@@ -21,12 +21,12 @@ export default function Profile() {
         {/* pages */}
         <div className='md:flex justify-between -mt-5 md:-mt-24 xl:w-5/6 my-  '>
           <div className=' ml-20 md:ml-0'>
-            <h1 className='text-blue-400 font-bold text-5xl '>My Page</h1>
+            <h1 className='text-[#8BC940] font-bold text-5xl '>My Page</h1>
           </div>
           <div className=''>
             <div className='pt-4 md:pt-0'>
               <button
-                className='bg-white text- active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                 type='button'
@@ -35,7 +35,7 @@ export default function Profile() {
                 unsave
               </button>
               <button
-                className='bg-white text- active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                 type='button'
@@ -51,7 +51,7 @@ export default function Profile() {
           <div className='flex gap-3'>
             <div className=''>
               <button
-                className='bg-white text- active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                 type='button'
@@ -62,7 +62,7 @@ export default function Profile() {
             </div>
             <div className=''>
               <button
-                className='bg-white text-blue-300 active:bg-gray-700 text-sm font-bold uppercase
+                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                 type='button'
@@ -74,7 +74,7 @@ export default function Profile() {
           </div>
           <div className=''>
             <button
-              className='bg-gray-200 text-white active:bg-gray-700 text-sm font-bold uppercase
+              className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
               type='button'
@@ -90,7 +90,7 @@ export default function Profile() {
             style={{ height: '200px', backgroundColor: 'white' }}
           >
             <div
-              className='absolute top-0 w-full h-full bg-center bg-cover bg-blue-600'
+              className='absolute top-0 w-full h-full bg-center bg-cover bg-[#8BC940] '
               // style={{
               //   backgroundImage:
               //     "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
@@ -195,7 +195,7 @@ export default function Profile() {
 
                       <div className='text-center mt-6 float-right '>
                         <button
-                          className='bg-gray-200 text-white active:bg-gray-700 absolute right-0 text-sm font-bold uppercase
+                          className='bg-[#8BC940]  text-white active:bg-gray-700 absolute right-0 text-sm font-bold uppercase
                        px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
                        bottom-0 '
                           type='button'

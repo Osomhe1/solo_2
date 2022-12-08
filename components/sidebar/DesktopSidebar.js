@@ -100,7 +100,7 @@ export default function Sidebar() {
                     <Link
                       className='text-blueGray-300 text-xs uppercase py-3 font-bold flex  gap-2 items-center'
                       href='/auth/Login'
-                      onClick={(e) => e.preventDefault()}
+                      // onClick={(e) => e.preventDefault()}
                     >
                       {/* <i className='fas fa-clipboard-list text-blueGray-300 mr-2 text-sm'></i>{' '} */}
                       <MdOutlineLogout className='text-2xl' />

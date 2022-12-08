@@ -14,9 +14,9 @@ export default function Header() {
             className='text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline'
           >
             <Image
-              className='Avenir object-fit '
+              className='Avenir object-fit bg-opacity-40 '
               alt='airlink logo'
-              src='/images/airlink_logo.jpg'
+              src='/images/darklink_logo.png'
               width={60}
               height={60}
             />
