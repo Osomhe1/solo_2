@@ -15,7 +15,6 @@ export default function Link() {
                 <details>
                   <summary className='py-2 outline-none cursor-pointer text-3xl flex justify-between items-center '>
                     Links & Embeds
-                   
                     <ChevronDownIcon className='text- h-14' />
                   </summary>
                   <div className='px-4 pb-4'>
@@ -37,10 +36,10 @@ export default function Link() {
                               strokeLinecap='round'
                               strokeLinejoin='round'
                               d='M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'
-                              className=' fill-blue-500'
+                              className=' fill-[#8BC940]'
                             />
                           </svg>
-                          <span className='text-blue-500'>Add New</span>
+                          <span className='text-[#8BC940]'>Add New</span>
                         </label>
                         <input
                           type='text'

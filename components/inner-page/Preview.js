@@ -9,8 +9,6 @@ import Integrations from '../Integrations'
 // import Details from '../Details'
 // import Image from 'next/image'
 // import Post from '../Post'
-import Preview from '../inner-page/Preview'
-
 
 export default function Profile() {
   return (
@@ -41,10 +39,8 @@ export default function Profile() {
                        bottom-0 '
                 type='button'
                 style={{ transition: 'all .15s ease' }}
-                // onClick={() =>{<Preview />}}
               >
-                {/* < Preview /> */}
-                Preview
+                unsave
               </button>
             </div>
           </div>
@@ -133,102 +129,12 @@ export default function Profile() {
                     </div>
                   </div>
 
-                  <div className='text- mt-12 pt-14 md:pt-0  '>
-                    <form className='Avenir w-full  xl:w-3/4 md:ml-44     '>
-                      <div className='relative  mb-3 '>
-                        <label className='ml-2 text-sm font-semibold text-gray-700'>
-                          Display Name
-                        </label>
-                        <input
-                          type='name'
-                          className='border-0 px-3 py-5 placeholder-gray-400 
-                   text-gray-700 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring  w-full'
-                          placeholder='John Doe'
-                          style={{ transition: 'all .15s ease' }}
-                        />
-                      </div>
-
-                      <div className='relative w-full mb-3'>
-                        <label className='ml-2 text-sm font-semibold text-gray-700'>
-                          Location
-                        </label>
-                        <input
-                          type='text'
-                          className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
-                         text-sm shadow focus:outline-none focus:ring w-full'
-                          placeholder='Canada'
-                          style={{ transition: 'all .15s ease' }}
-                        />
-                      </div>
-                      <div className='relative w-full mb-3 '>
-                        <div className=''>
-                          <label className='ml-2 text-sm font-semibold text-gray-700'>
-                            Bio
-                          </label>
-                          <textarea
-                            type='text'
-                            className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-gray-50 rounded
-                            text-sm shadow focus:outline-none focus:ring w-full'
-                            placeholder='Lord chief Commandar'
-                            style={{ transition: 'all .15s ease' }}
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <label className=' items-center cursor-pointer '>
-                          <div className=''>
-                            <label className='ml-2 text-sm font-semibold text-gray-700'>
-                              Background Image
-                            </label>
-                            <div className='flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600'>
-                              <label className='inline-flex relative items-center w-full cursor-pointer'>
-                                <input
-                                  id='customCheckLogin'
-                                  type='checkbox'
-                                  value=''
-                                  className='sr-only peer'
-                                  style={{ transition: 'all .15s ease' }}
-                                />
-                                <div className="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
-                              </label>
-                            </div>
-                          </div>
-                        </label>
-                      </div>
-
-                      <div className='text-center mt-6 float-right '>
-                        <button
-                          className='bg-[#8BC940]  text-white active:bg-gray-700 absolute right-0 text-sm font-bold uppercase
-                       px-6 py-5 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                          type='button'
-                          style={{ transition: 'all .15s ease' }}
-                        >
-                          save
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                  
                 </div>
               </div>
             </div>
 
-            <div className=''>
-              <div className='py-2 my-4  '>
-                <Appreance />
-              </div>
-              <div className='py-2 my-4'>
-                {' '}
-                <Link />
-              </div>
-              <div className='py-2 my-4'>
-                <Buttons />
-              </div>
-              <div className='py-2 my-4'>
-                {' '}
-                <Integrations />
-              </div>
-            </div>
+            
           </section>
         </div>
       </main>
